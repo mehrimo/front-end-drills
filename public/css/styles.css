@@ -1,0 +1,14 @@
+p {
+  color: #ecf0f1;
+}
+
+div {
+  background: #3498db
+}
+
+body {
+  background: url(../img/kittyCat.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: top;
+}
