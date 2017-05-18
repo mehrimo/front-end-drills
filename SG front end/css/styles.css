@@ -1,0 +1,163 @@
+body {
+  font-family: Lato, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header */
+header {
+  background: #FFFFFF;
+  color: #40a2c1;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header a {
+  color: #40a2c1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px
+}
+
+
+header #branding {
+  float:left;
+}
+
+header #branding img {
+  margin: 0;
+  width: 50%;
+  height: auto;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+/*header a:hover {
+  color: #f7b133;
+}*/
+
+#demo {
+  color: #7c6093;
+}
+
+#login {
+  color: #94c826;
+}
+
+/* Hero */
+
+#hero {
+  min-height: 300px;
+  /*background: url('../img/hero-bg2.png') no-repeat 75px 50px;*/
+  /*background-position: 50px 100px; */
+
+
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6*/
+  background: linear-gradient(to left, #f2fcfe, #1c92d2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+
+  text-align: left;
+  color: #2c2c2c;
+}
+
+
+
+#hero h1 {
+  margin-top: 75px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: #173944;
+}
+
+#hero p {
+  font-size: 18px;
+}
+
+#hero .button-one {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #94c826;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  color: #FFFFFF;
+  font-family: Lato, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.0625em;
+}
+
+#hero .button-one:hover {
+  background-color: #649104;
+}
+
+/* Online Training Columns */
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: left;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li {
+    float: none;
+    text-align: center;
+    width:100%;
+  }
+  #boxes .box {
+    float: none;
+    /*text-align: center;*/
+    width:100%;
+  }
+
+
+header {
+  padding-bottom: 20px;
+}
+
+/*header #demo, #login {*/
+  display: block;
+  width: 100%;
+}
+
+#hero h1 {
+  margin-top: 40px;
+}
+
+}
