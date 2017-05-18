@@ -1,13 +1,16 @@
 body {
   margin: 0;
-  padding: 0;
-  background-color: #ccc;
+  padding-top: 50px;
+  /*padding: 0;*/
+  background-color: #fff;
 }
+
+/* Nav bar */
 
 .navigation {
   height: 70px;
-  background-color: #262626;
-  position: fixed;
+  background-color: #FFFFFF;
+  position: absolute;
   top: 0;
   width: 100%;
 }
@@ -15,7 +18,7 @@ body {
 .nav-container {
   max-width: 1000px;
   margin: 0 auto;
-
+  text-transform: uppercase;
 }
 
 .brand {
@@ -44,15 +47,17 @@ nav ul {
 nav ul li {
   float: left;
   position: relative;
+
 }
 
 nav ul li a {
   display: block;
-  color: #fff;
+  color: #40a2c1;
   padding: 0 20px;
-  background: #262626;
+  background: #FFFFFF;
   text-decoration: none;
   line-height: 70px;
+  font-family: Lato,"Helvetica Neue",sans-serif;
 }
 
 nav ul li a:hover {
@@ -61,20 +66,69 @@ nav ul li a:hover {
           transition: .4s;
 }
 
-/*nav ul li a:not(:only-child):after {
+nav ul li a:not(:only-child):after {
           padding-left: 4px;
-          content: '  ▾'; }*/
+          content: '  ▾'; }
 
 nav ul li ul li {
   min-width: 160px;
-  }
+}
 
 nav ul li ul li a {
   padding: 15px;
   line-height: 20px;
-
-
 }
+
+/* Hero */
+
+
+.hero-bg {
+  background: #222;
+  height: 100%;
+  max-height: 468px;
+  width: 100%;
+  clear: both;
+  position: absolute;
+  margin-bottom: 200px;
+  background: url(http://www.mrussophoto.com/wp-content/uploads/photo-gallery/joshuaTree2_portfolio-23.jpg) no-repeat center center;
+  background-size: cover;
+}
+@media (min-width: 641px) and (max-width: 2000px) {
+  .hero-bg {
+    background: url(http://www.mrussophoto.com/wp-content/uploads/photo-gallery/joshuaTree2_portfolio-23.jpg) no-repeat center center;
+    background-size: cover;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1500px) {
+  .hero-bg {
+    background: url(http://www.mrussophoto.com/wp-content/uploads/photo-gallery/joshuaTree2_portfolio-23.jpg) no-repeat center center;
+    background-size: cover;
+  }
+}
+@media (min-width: 1500px) {
+  .hero-bg {
+    background: url(http://www.mrussophoto.com/wp-content/uploads/photo-gallery/joshuaTree2_portfolio-23.jpg) no-repeat center center;
+    background-size: cover;
+  }
+}
+
+.hero-content {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  height: 100%;
+}
+
 
 /* Mobile Hamburger Menu */
 
@@ -86,6 +140,26 @@ nav ul li ul li a {
   top: 0;
   right: 0;
   background-color: #262626;
+}
+
+#demo {
+  color: #7c6093;
+}
+
+#login {
+  color: #94c826;
+}
+
+.hero {
+  height: 500px;
+  background-color: #AAAAAA;
+  /*position: fixed;*/
+  /*top: 0;*/
+  width: 100%;
+  /*margin: 0 auto 0 auto !important*/
+  background: url(../img/banner-bg.png);
+  background-repeat: no-repeat;
+
 }
 
 /* Media Query for Navigation */
@@ -121,9 +195,17 @@ nav ul li ul li a {
 
 }
 
+#logo img {
+  width: 175px;
+  float: left;
+  padding-top: 20px;
+  /*margin:32px 0x 34px 0px;*/
+}
+
 @media screen and (min-width: 800px) {
   .nav-list {
     display: block !important; } }
+
 #nav-toggle {
   position: absolute;
   left: 18px;
