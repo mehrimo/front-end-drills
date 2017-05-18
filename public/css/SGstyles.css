@@ -79,36 +79,106 @@ nav ul li ul li a {
   line-height: 20px;
 }
 
+#demo {
+  color: #7c6093;
+}
+
+#login {
+  color: #94c826;
+}
+
+
 /* Hero */
 
-
 .hero-bg {
-  background: #222;
   height: 100%;
   max-height: 468px;
   width: 100%;
   clear: both;
   position: absolute;
-  margin-bottom: 200px;
-  background: url(http://www.mrussophoto.com/wp-content/uploads/photo-gallery/joshuaTree2_portfolio-23.jpg) no-repeat center center;
-  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 150px;
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-left: 20px;
+
 }
-@media (min-width: 641px) and (max-width: 2000px) {
+
+h2 {
+  color: #044358;
+  font-size: 4em;
+  margin: 0 0 10px;
+  font-family: Lato,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+}
+
+p {
+  color: #000000;
+  font-size: 1em;
+  font-family: Lato,"Helvetica Neue",sans-serif;
+  font-weight: 400;
+}
+
+a.btn {
+  text-decoration: none;
+  color: #005c9e;
+  font-size: 1.2em;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+}
+
+/* Hero Mobile */
+
+@media screen and (max-width: 480px) {
   .hero-bg {
-    background: url(http://www.mrussophoto.com/wp-content/uploads/photo-gallery/joshuaTree2_portfolio-23.jpg) no-repeat center center;
-    background-size: cover;
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  h2 {
+    font-size: 2em;
   }
 }
-@media (min-width: 1025px) and (max-width: 1500px) {
+
+@media (min-width: 450px) and (max-width: 641px) {
   .hero-bg {
-    background: url(http://www.mrussophoto.com/wp-content/uploads/photo-gallery/joshuaTree2_portfolio-23.jpg) no-repeat center center;
-    background-size: cover;
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  h2 {
+    font-size: 2em;
   }
 }
-@media (min-width: 1500px) {
+
+@media (min-width: 641px) and (max-width: 1025px) {
   .hero-bg {
-    background: url(http://www.mrussophoto.com/wp-content/uploads/photo-gallery/joshuaTree2_portfolio-23.jpg) no-repeat center center;
-    background-size: cover;
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  h2 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 1025px) and (max-width: 2000px) {
+  .hero-bg {
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  h2 {
+    font-size: 4em;
+  }
+}
+@media (min-width: 2000px) {
+  .hero-bg {
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 }
 
@@ -142,25 +212,17 @@ nav ul li ul li a {
   background-color: #262626;
 }
 
-#demo {
-  color: #7c6093;
-}
-
-#login {
-  color: #94c826;
-}
-
-.hero {
+/*.hero {
   height: 500px;
   background-color: #AAAAAA;
   /*position: fixed;*/
   /*top: 0;*/
-  width: 100%;
+  /*width: 100%;*/
   /*margin: 0 auto 0 auto !important*/
-  background: url(../img/banner-bg.png);
-  background-repeat: no-repeat;
+  /*background: url(../img/banner-bg.png);
+  background-repeat: no-repeat;*/
 
-}
+/*}*/
 
 /* Media Query for Navigation */
 
@@ -236,3 +298,5 @@ nav ul li ul li a {
       transform: rotate(45deg); }
     #nav-toggle.active span:after {
       transform: rotate(-45deg); }
+
+      
