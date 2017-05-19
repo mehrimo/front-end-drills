@@ -18,8 +18,8 @@ ul {
   padding: 0;
 }
 
-
 /* Header */
+
 header {
   background: #FFFFFF;
   color: #40a2c1;
@@ -56,16 +56,19 @@ header nav {
   margin-top: 10px;
 }
 
-/*header a:hover {
-  color: #f7b133;
-}*/
-
 #demo {
   color: #7c6093;
+  border: 1px solid #7c6093;
+  border-radius: 4px;
+  padding: 5px;
 }
+
 
 #login {
   color: #94c826;
+  border: 1px solid #94c826;
+  border-radius: 4px;
+  padding: 5px;
 }
 
 /* Hero */
@@ -137,10 +140,10 @@ header nav {
 }
 
 /* Modals */
+
 .modal-header h2 {
   color: #40a2c1;
 }
-
 
 .btn {
   background: #f06586;
@@ -236,6 +239,7 @@ header nav {
 
 
 /* Media Queries */
+
 @media(max-width: 768px){
   header #branding,
   header nav,
@@ -246,7 +250,6 @@ header nav {
   }
   #boxes .box {
     float: none;
-    /*text-align: center;*/
     width:100%;
   }
 
@@ -261,11 +264,6 @@ header ul li {
   border-bottom: 1px solid #CCCCCC;
   padding: 10px;
 }
-/*
-header #demo, #login {
-  display: block;
-  width: 100%;
-}*/
 
 #hero h1 {
   margin-top: 40px;
