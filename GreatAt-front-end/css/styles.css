@@ -4,5 +4,21 @@
 }
 
 body {
-  background-color: #CCCCCC;
+  background-color: #FFFFFF;
+}
+
+p {
+  font-family: "Times New Roman", Georgia, Serif;
+  color: #39393a;
+  line-height: 1.25;
+}
+
+.intro-section {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.terms-headline {
+  text-transform: uppercase;
+  font-family: "Times New Roman", Georgia, Serif;
 }
