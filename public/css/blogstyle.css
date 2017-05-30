@@ -1,0 +1,32 @@
+body {
+  max-width: 700px;
+  width: 80%;
+  margin: 20px auto;
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.container {
+  /*width: 90%;*/
+}
+
+
+h2 {
+  color: #2c3e50;
+}
+
+.date {
+  color: #3498db;
+  text-transform: uppercase;
+}
+
+.blockquote {
+  padding-left: 15px;
+  border-left: 5px solid #bdc3c7
+}
+
+hr.style1{
+	border-top: 1px solid #CCCCCC;
+}
